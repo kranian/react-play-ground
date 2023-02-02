@@ -1,0 +1,33 @@
+@font-face {
+  font-family : 'NanumGothic';
+  src: url('assets/fonts/NanumGothic.eot?#iefix') format('embedded-opentype'),
+       url('assets/fonts/NanumGothic.woff') format('woff'),
+       url('assets/fonts/NanumGothic.ttf') format('truetype');
+  font-style: normal
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: initial !important;
+}
+body {
+  font-size: 13px;
+  line-height: 1.46668;
+  font-weight: 400;
+  font-variant-ligatures: common-ligatures;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+* {
+  box-sizing: border-box;
+  font-family: 'NanumGothic', sans-serif;
+}
+a {
+  text-decoration : none;
+}
+#root {
+  width: 100vw;
+  height:100vh;
+}
+
